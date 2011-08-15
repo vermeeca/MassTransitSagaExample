@@ -34,7 +34,7 @@ namespace MassTransitSagaExample
             Console.WriteLine("Publishing a message");
             Bus.Instance.Publish(new MyMessage1() { CorrelationId = correlationId });
 
-            Console.WriteLine("Press enter  to start watching");
+            Console.WriteLine("Press enter to start watching");
             Console.ReadLine();
 
             Bus.Instance.Publish(new StartWatchingMessage() { CorrelationId = correlationId });
@@ -45,8 +45,11 @@ namespace MassTransitSagaExample
             Console.WriteLine("Publishing a message2");
             Bus.Instance.Publish(new MyMessage2() { CorrelationId = correlationId });
 
+            ThreadUtil.Sleep(3.Seconds());
 
-            Console.WriteLine("Press enter close");
+            Console.WriteLine("I was expecting just one Message1 message to be received by the saga.");
+
+            Console.WriteLine("Press enter to close");
             Console.ReadLine();
 
         }
