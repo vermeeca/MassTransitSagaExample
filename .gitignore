@@ -1,0 +1,17 @@
+obj
+bin
+deploy
+deploy/*
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+~$*
+*.db
+*.mdf
+*.ldf
+*.LDF
+*.cachefile
+packages.*
