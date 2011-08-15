@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSagaExample", "MassTransitSagaExample\MassTransitSagaExample.csproj", "{DD6151D1-BEF9-46A0-82F7-04CA2413A9C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD6151D1-BEF9-46A0-82F7-04CA2413A9C2}.Debug|x86.ActiveCfg = Debug|x86
+		{DD6151D1-BEF9-46A0-82F7-04CA2413A9C2}.Debug|x86.Build.0 = Debug|x86
+		{DD6151D1-BEF9-46A0-82F7-04CA2413A9C2}.Release|x86.ActiveCfg = Release|x86
+		{DD6151D1-BEF9-46A0-82F7-04CA2413A9C2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

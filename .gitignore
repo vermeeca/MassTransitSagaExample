@@ -3,6 +3,8 @@ bin
 deploy
 deploy/*
 _ReSharper.*
+packages
+packages/*
 *.csproj.user
 *.resharper.user
 *.resharper
@@ -14,4 +16,3 @@ _ReSharper.*
 *.ldf
 *.LDF
 *.cachefile
-packages.*
