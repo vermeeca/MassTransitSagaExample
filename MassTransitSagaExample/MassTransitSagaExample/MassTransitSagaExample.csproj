@@ -57,13 +57,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Messages\MyBaseMessage.cs" />
+    <Compile Include="Messages\MyMessage1.cs" />
+    <Compile Include="Messages\MyMessage2.cs" />
+    <Compile Include="Messages\StartWatchingMessage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sagas\ExampleSaga.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>$(ProjectDir)..\..\lib\Nuget.exe i $(ProjectDir)packages.config -o $(ProjectDir)..\packages\</PreBuildEvent>
